@@ -1,0 +1,50 @@
+PODS:
+  - "CHCategories/Foundation/NSObject/NSObject+CHBase (0.2.1)":
+    - "CHCategories/Foundation/NSValue/NSValue+CHBase"
+  - "CHCategories/Foundation/NSValue/NSValue+CHBase (0.2.1)"
+  - CHSVGAPlayer-iOS (1.1.0):
+    - "CHCategories/Foundation/NSObject/NSObject+CHBase"
+    - SVGAPlayer (~> 2.3)
+    - YYCache
+  - LYSVGAPlyerDemo (0.1.0)
+  - Protobuf (3.14.0)
+  - SSZipArchive (2.2.3)
+  - SVGAPlayer (2.5.6):
+    - SVGAPlayer/Core (= 2.5.6)
+    - SVGAPlayer/ProtoFiles (= 2.5.6)
+  - SVGAPlayer/Core (2.5.6):
+    - SSZipArchive (>= 1.8.1)
+    - SVGAPlayer/ProtoFiles
+  - SVGAPlayer/ProtoFiles (2.5.6):
+    - Protobuf (~> 3.4)
+  - YYCache (1.0.4)
+
+DEPENDENCIES:
+  - CHSVGAPlayer-iOS
+  - LYSVGAPlyerDemo (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - CHCategories
+    - CHSVGAPlayer-iOS
+    - Protobuf
+    - SSZipArchive
+    - SVGAPlayer
+    - YYCache
+
+EXTERNAL SOURCES:
+  LYSVGAPlyerDemo:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CHCategories: 173c7aac278bc7de428ae21ad60f5b6e5c9f4ded
+  CHSVGAPlayer-iOS: 23d5313c1d991b3e76c6cc1878f860e233bfb447
+  LYSVGAPlyerDemo: c54ce0db15c88821f84a686e993bd4ced4cae13e
+  Protobuf: 0cde852566359049847168e51bd1c690e0f70056
+  SSZipArchive: 62d4947b08730e4cda640473b0066d209ff033c9
+  SVGAPlayer: f3b3792ae66f7cb3f944ae373a40864db9a04331
+  YYCache: 8105b6638f5e849296c71f331ff83891a4942952
+
+PODFILE CHECKSUM: 451d3c35de57e3ff7d8f5c3b333fc2e2f9c6d9c7
+
+COCOAPODS: 1.9.3

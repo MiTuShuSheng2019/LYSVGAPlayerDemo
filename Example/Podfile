@@ -4,13 +4,7 @@ platform :ios, '9.0'
 
 target 'LYSVGAPlyerDemo_Example' do
   pod 'LYSVGAPlyerDemo', :path => '../'
-
-  target 'LYSVGAPlyerDemo_Tests' do
-    inherit! :search_paths
-
-    pod 'Specta'
-    pod 'Expecta'
-    pod 'FBSnapshotTestCase'
-    pod 'Expecta+Snapshots'
-  end
+#  pod 'SVGAPlayer'
+pod 'CHSVGAPlayer-iOS'
 end
+

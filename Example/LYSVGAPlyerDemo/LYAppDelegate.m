@@ -7,12 +7,17 @@
 //
 
 #import "LYAppDelegate.h"
+#import "LYViewController.h"
 
 @implementation LYAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    
+    LYViewController *controller = [[LYViewController alloc] init];
+    self.window = [[UIWindow alloc] initWithFrame:UIScreen.mainScreen.bounds];
+    self.window.rootViewController = controller;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

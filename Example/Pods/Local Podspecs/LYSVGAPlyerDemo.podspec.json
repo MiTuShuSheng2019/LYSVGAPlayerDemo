@@ -1,0 +1,22 @@
+{
+  "name": "LYSVGAPlyerDemo",
+  "version": "0.1.0",
+  "summary": "A short description of LYSVGAPlyerDemo.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/904101287@qq.com/LYSVGAPlyerDemo",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "904101287@qq.com": "yi.liu01@happy-seed.com"
+  },
+  "source": {
+    "git": "https://github.com/904101287@qq.com/LYSVGAPlyerDemo.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "LYSVGAPlyerDemo/Classes/**/*"
+}

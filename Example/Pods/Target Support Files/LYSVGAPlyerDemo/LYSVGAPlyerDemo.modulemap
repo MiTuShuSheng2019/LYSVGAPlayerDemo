@@ -1,0 +1,6 @@
+framework module LYSVGAPlyerDemo {
+  umbrella header "LYSVGAPlyerDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
